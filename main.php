@@ -5,6 +5,6 @@
 
   $ratel = new ratel ("ratel", "quatro", "baixo", "texugo", "branca e preta");
 
-  $ratel -> receber_dano();
+  $ratel 
   $ratel -> raiva();
 ?>
