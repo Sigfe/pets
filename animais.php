@@ -1,4 +1,5 @@
 <?php
+  //Feito por Igor Felix Silva
   class animais{
     public $pelo;
     public $qtd_patas;
