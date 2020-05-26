@@ -36,5 +36,5 @@
     }
 
   }
-//De Igor Felix Silva
 ?>
+//Feito por Igor Felix Silva
