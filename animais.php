@@ -8,7 +8,7 @@
     public $cor;
 
     public function __construct($raca, $qtd_patas, $porte,  $especie, $cor){
-      echo("O animal é criado!\n");
+      echo("Um animal é criado!\n");
       
       $this->raca = $raca;
       $this->qtd_patas = $qtd_patas;
@@ -16,10 +16,10 @@
       $this->especie = $especie;
       $this->cor = $cor;
 
-      echo("O animal da especie ".$this->especie." é da raca ".$this -> raca." e ele tem ". $this->qtd_patas. " patas, tem a coloração ".$this -> cor." seu porte é ".$this -> porte.".\n");
+      echo("O animal é um ".$this->especie." é da raca ".$this -> raca." e ele tem ". $this->qtd_patas. " patas, tem a coloração ".$this -> cor." seu porte é ".$this -> porte.".\n");
     }
     public function __destruct(){
-      echo ("O ".$this->especie." morreu!");
+      echo ("Morreu o animal: " .$this-> raca ."\n");
     }
 
     public function setreceber_dano($dano){
@@ -36,6 +36,12 @@
       echo ("O ".$this -> raca."  fica completamente ".$this->raiva. ", mas é derrotado.\n");
     }
 
+    public function setOld ($old){
+      $this -> old = $old;
+    }
+    public function getOld(){
+      echo ("O ".$this -> raca." ".$this -> old ." com o tempo.\n");
+    }
   }
+  //Feito por Igor Felix Silva
 ?>
-//Feito por Igor Felix Silva
